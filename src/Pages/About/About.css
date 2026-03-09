@@ -1,0 +1,155 @@
+.about {
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-header p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.about-section {
+    margin-bottom: 3rem;
+}
+
+.about-section h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.about-section h2 img {
+    width: 32px;
+    height: 32px;
+}
+
+/* Default (dark mode) icon colors */
+.about-icon {
+    /* This filter converts a black SVG to the primary color #1466b8 */
+    filter: invert(32%) sepia(84%) saturate(1533%) hue-rotate(187deg) brightness(91%) contrast(92%);
+}
+
+/* Light mode icon colors */
+body.light-mode .about-icon {
+    filter: none; /* Reverts to original color (black) */
+}
+
+.about-section p {
+    line-height: 1.7;
+    color: var(--text-muted);
+}
+
+.advisor-card {
+    background-color: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    border-radius: 12px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.advisor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.advisor-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.advisor-details h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.advisor-details h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.advisor-details p {
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .advisor-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .advisor-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.timeline {
+    position: relative;
+    padding-left: 1.9rem;
+    border-left: 3px solid var(--primary);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -2.5rem;
+    top: 6px;
+    width: 16px;
+    height: 16px;
+    background-color:var(--primary);
+    border-radius: 50%;
+    border: 3px solid var(--primary);
+}
+
+
+.timeline-content .timeline-event {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+}
+
+.timeline-content .timeline-year {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+

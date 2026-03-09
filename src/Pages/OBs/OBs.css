@@ -1,0 +1,254 @@
+.OBs{
+    padding: 4rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.OBs h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.OBs-p{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.OBs-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.OBs-card{
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    box-shadow: var(--primary);
+    background-color: var(--glass-bg);
+    backdrop-filter: var(--glass-blur);
+    -webkit-backdrop-filter: var(--glass-blur);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+.OBs-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+.OBs-card h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+.OBs-card p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+.OBs-card img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid hsl(0, 0%, 50%);
+    margin-bottom: 15px;
+}
+
+.current-OBS{
+    font-size: 2.2rem;
+    color: var(--text-color);
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+.current-OBS::before{
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 4px;
+    background-color: var(--primary);
+    margin-right: 10px;
+}
+/* .past-OBS{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 50px 0 30px 0;
+}
+.past-OBS::before{
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 4px;
+    background-color: var(--primary);
+    margin-right: 10px;
+}
+.past-OBs-container{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.pOBs-card{
+    width: 1000px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid var(--nav-border);
+    padding-bottom: 10px;
+    padding: 15px;
+}
+
+.pOBs-card:last-child{
+    border: none;
+}
+.pOBs-card img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px
+}
+.pOBs-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pOBs-card h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+.pOBs-card p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--text-muted);
+    line-height: 1.5;
+} */
+
+@media (max-width: 1400px) {
+    .OBs {
+        padding: 3.5rem 1.5rem;
+    }
+
+    .OBs-container {
+        gap: 1.8rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .OBs h1 {
+        font-size: 2.7rem;
+    }
+
+    .current-OBS {
+        font-size: 2rem;
+    }
+
+    .OBs-p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .OBs {
+        padding: 3rem 1.2rem;
+    }
+
+    .OBs h1 {
+        font-size: 2.4rem;
+    }
+
+    .OBs-p {
+        max-width: 600px;
+        margin-bottom: 2.5rem;
+    }
+
+    .OBs-container {
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .OBs-card {
+        padding: 1.2rem;
+    }
+
+    .OBs-card h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .OBs {
+        padding: 2.5rem 1rem;
+    }
+
+    .OBs h1 {
+        font-size: 2.2rem;
+    }
+
+    .current-OBS {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .OBs-p {
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+    }
+
+    .OBs-container {
+        gap: 1.2rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .OBs h1 {
+        font-size: 2rem;
+    }
+
+    .current-OBS {
+        font-size: 1.6rem;
+    }
+
+    .OBs-container {
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .OBs-card {
+        padding: 1rem;
+    }
+
+    .OBs-card h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .OBs {
+        padding: 2rem 0.8rem;
+    }
+
+    .OBs-p {
+        font-size: 0.9rem;
+    }
+
+    .OBs-card {
+        padding: 0.8rem;
+    }
+}

@@ -1,0 +1,75 @@
+.technical-events {
+    padding: 50px 8%;
+}
+
+.technical-head {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.tabs {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid var(--nav-border);
+    margin-bottom: 30px;
+}
+
+.tabs span {
+    padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+    color: var(--text-muted);
+    transition: color 0.3s ease;
+}
+
+.tabs span:hover {
+    color: var(--text-color);
+}
+
+.tabs span.active {
+    color: var(--text-color);
+}
+
+.tabs span.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary);
+}
+
+.tab-content .event-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--nav-border);
+}
+
+.tab-content .event-item:last-child {
+    border-bottom: none;
+}
+
+.tab-content .event-item img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.event-details h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    font-size: 1rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+}

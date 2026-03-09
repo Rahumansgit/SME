@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --primary: #1466b8;
+    --background-color: #111921;
+    --text-color: #f6f7f8;
+    --text-muted: #c5c5c5;
+    --event-card: hsla(0, 0%, 0%, 0.4);
+    --card-bg: hsl(210, 32%, 12%);
+    --card-border: hsla(210, 80%, 40%, 0.3);
+    --card-shadow: hsla(210, 80%, 40%, 0.3);
+    --card-shadow-hover: hsla(210, 80%, 40%, 0.5);
+    --nav-border: hsla(0, 0%, 50%, 0.5);
+    --nav-dark-bg: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    --icon-filter: brightness(0) invert(1);
+    --hero-image-filter: brightness(0.85) contrast(1.1);
+    --glass-bg: rgba(20, 102, 184, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    --glass-blur: blur(8px);
+}
+
+body.light-theme {
+    --primary: #1466b8;
+    --background-color: #f0f2f5;
+    --text-color: #1c1e21;
+    --text-muted: #555;
+    --card-bg: #ffffff;
+    --card-border: #ddd;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --card-shadow-hover: rgba(0, 0, 0, 0.2);
+    --nav-border: #ddd;
+    --nav-dark-bg: linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.95));
+    --icon-filter: brightness(0) invert(0);
+    --event-card: hsl(0, 0%, 90%);
+    --hero-image-filter: brightness(1) contrast(1.05);
+    --glass-bg: rgba(255, 255, 255, 0.25);
+    --glass-border: rgba(255, 255, 255, 0.3);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    --glass-blur: blur(10px);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);    
+}
