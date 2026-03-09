@@ -4,7 +4,7 @@ import HistoryIcon from '../../asset/icons/history-log-manuscript-svgrepo-com.sv
 import MissionIcon from '../../asset/icons/rocket-svgrepo-com.svg';
 import AdvisorIcon from '../../asset/icons/message-square-check-svgrepo-com.svg';
 import AchievementsIcon from '../../asset/icons/trophy-1-svgrepo-com.svg';
-import AdvisorImg from '../../asset/contact/C3.png';
+import AdvisorImg from '../../asset/contact/c3.png';
 import '../../Components/CardEffect/CardEffect.css'
 import { initCardEffect } from '../../Components/CardEffect/CardEffect';
 

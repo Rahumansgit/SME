@@ -5,8 +5,8 @@ import InstagramIcon from '../../asset/icons/logo-instagram.svg'
 import FacebookIcon from '../../asset/icons/logo-facebook.svg'
 import LinkedinIcon from '../../asset/icons/logo-linkedin.svg'
 import DrArunImg from '../../asset/contact/c3.png'
-import harishImg from '../../asset/OBs/ChairPersons/harish.jpg';
-import jayashreeImg from '../../asset/OBs/ChairPersons/jayashree.jpg';
+import harishImg from '../../asset/OBs/ChairPersons/Harish.jpg';
+import jayashreeImg from '../../asset/OBs/ChairPersons/Jayashree.jpg';
 
 export default function Contact() {
   return (
