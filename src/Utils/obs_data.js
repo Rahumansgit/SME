@@ -141,25 +141,26 @@ import safrinMariyamMImg from '../asset/OBs/CoChairPersons/SafrinMariyam_M.jpg';
 /* import harishkumar 
 import varshini*/
 import tharunRImg from '../asset/OBs/CoChairPersons/Tharun_R.jpg';
-import shajaKhanAImg from '../asset/OBs/CoChairPersons/ShajaKhan_A.jpg';
+import shajaKhanAImg from '../asset/OBs/CoChairPersons/ShajaKhan_A.JPG';
 import varshiniKImg from '../asset/OBs/CoChairPersons/Varshini_K.jpg';
 import kalaiArasanAImg from '../asset/OBs/CoChairPersons/KalaiArasan_A.jpg';
 import selvaLakshimiAImg from '../asset/OBs/CoChairPersons/SelvaLakshimi_A.png';
 import shaliSImg from '../asset/OBs/CoChairPersons/Shali_S.jpg';
 import sridharKImg from '../asset/OBs/CoChairPersons/Sridhar_K.jpg';
 import vedaVarshiniRImg from '../asset/OBs/CoChairPersons/VedaVarshini_R.jpeg';
-import karthikeyanGImg from '../asset/OBs/CoChairPersons/Karthikeyan_G.jpg';
-import BaranidharanSImg from '../asset/OBs/CoChairPersons/Baranidharan_S.jpg';
-import SivasubramanianSAImg from '../asset/OBs/CoChairPersons/Sivasubramanian_SA.jPEG';
-import jeevaPrasadVUImg from '../asset/OBs/CoChairPersons/JeevaPrasad_VU.jpg';
+import karthikeyanGImg from '../asset/OBs/CoChairPersons/KarthiKeyan_G.jpg';
+import BaranidharanSImg from '../asset/OBs/CoChairPersons/BaraniDharan_S.jpg';
+import SivasubramanianSAImg from '../asset/OBs/CoChairPersons/Sivasubramanian_SA.jpeg';
+import jeevaPrasadVUImg from '../asset/OBs/CoChairPersons/jeevaprasad_VU.jpg';
 import malathiMImg from '../asset/OBs/CoChairPersons/Malathi_M.jpg';
 import kavinSImg from '../asset/OBs/CoChairPersons/Kavin_S.jpg';
 /* import shaneRoysstonA */
 import sivaBalanSSImg from '../asset/OBs/CoChairPersons/SivaBalan_SS.jpg';
 import prithivRajJImg from '../asset/OBs/CoChairPersons/PrithivRaj_J.jpg';
 import sanjaiKEImg from '../asset/OBs/CoChairPersons/Sanjai_KE.jpg';
-import sripriyanPImg from '../asset/OBs/CoChairPersons/Sripriyan_P.jPEG';
-/* import sandiepLakshmanBA */
+import sripriyanPImg from '../asset/OBs/CoChairPersons/Sripriyan_P.jpeg';
+/* import shaneRoysstonAImg from '../asset/OBs/CoChairPersons/ShaneRoysston_A.jpg';
+/* import sandiepLakshmanBA */ 
 import yeshwanthKImg from '../asset/OBs/CoChairPersons/Yeshwanth_K.jpg';
 
 export const CoChairPersons_data = [
@@ -297,13 +298,13 @@ export const CoChairPersons_data = [
         "name": "Baranidharan S",
         "position": "Logistics",
         "year": "3rd Year",
-        "image": OB2
+        "image": BaranidharanSImg
     },
     {
         "name": "Sivasubramanian S A",
         "position": "Logistics",
         "year": "3rd Year",
-        "image": OB5
+        "image": SivasubramanianSAImg
     },
     {
         "name": "Jeeva Prasad V U",
@@ -327,7 +328,7 @@ export const CoChairPersons_data = [
         "name": "Shane Roysston A",
         "position": "Quality Assurance Control",
         "year": "3rd Year",
-        "image": OB6
+        "image": OB1
     },
     {
         "name": "Siva Balan S S",
