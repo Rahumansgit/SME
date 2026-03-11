@@ -6,6 +6,7 @@ import insta_icon from '../../asset/icons/logo-instagram.svg';
 import fb_icon from '../../asset/icons/logo-facebook.svg';
 import linkedin_icon from '../../asset/icons/logo-linkedin.svg';
 import twitter_icon from '../../asset/icons/logo-twitter.svg';
+import develperImg from '../../asset/OBs/CoChairPersons/AbdulRahuman_S.jpeg';
 export default function Footer() {
   return (
     <>
@@ -42,8 +43,12 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <div className="developer-credit">
+        <img src={develperImg} alt="Developer" />
+        <p>Design and Developed by <span><Link to="https://www.linkedin.com/in/abdul-rahuman-92b211374/" target="_blank">Abdul Rahuman S <img src={linkedin_icon} alt="LinkedIn" /></Link></span></p>
+      </div>
       <div className="copyright">
-        <p>© 2025 Society of Mechanical Engineering, CEG, All Rights Reserved</p>
+        <p>© 2026 Society of Mechanical Engineering, CEG, All Rights Reserved</p>
       </div>    
     </>
     

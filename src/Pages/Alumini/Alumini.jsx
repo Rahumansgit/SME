@@ -14,8 +14,8 @@ const Alumini = () => {
           {aluminiData.map((alumini, index) => (
             <div className="alumini-card" key={index}>
               <h4 className='alumini-name'>{alumini.name}</h4>
-              <p className='graduation-year'>Class of {alumini.year_of_graduation}</p>
-              <p className='alumini-position'>{alumini.current_position}</p>
+              {/* <p className='graduation-year'>Class of {alumini.year_of_graduation}</p>
+              <p className='alumini-position'>{alumini.current_position}</p> */}
               <a href={alumini.linkedin} target="_blank" rel="noopener noreferrer">
                 View Linkedin Profile <FaExternalLinkAlt size={12} />
               </a>

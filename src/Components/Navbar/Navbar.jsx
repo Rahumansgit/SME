@@ -4,7 +4,7 @@ const logo = '/SME_logo_removebg.png';
 import menuIcon from '../../asset/icons/menu-icon.svg';
 import crossIcon from '../../asset/icons/cross.svg';
 import { Link, useLocation } from 'react-router-dom';
-import { ThemeContext } from '../../Context/ThemeContext';
+import { ThemeContext } from '../Context/ThemeContext';
 
 export default function Navbar() {
   
@@ -58,7 +58,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="nav-right">
-            <span onClick={toggleTheme} className={`theme-toggle-button ${theme}`}>
+            <span onClick={toggleTheme} className={`theme-toggle-button ${theme}`} style={{gap: '4px'}}>
                 <span className="theme-text">{theme === 'dark' ? 'Light' : 'Dark'}</span>
                 <span className="theme-symbol">{theme === 'dark' ? '☼' : '☾'}</span>
             </span>

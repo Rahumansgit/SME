@@ -13,7 +13,7 @@ import Contact from "./Pages/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import { Route, Routes, Link } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
-import { ThemeProvider } from "./Context/ThemeContext";
+import { ThemeProvider } from "./Components/Context/ThemeContext";
 
 
 function App() {

@@ -8,7 +8,7 @@ export default function Resources() {
         <h1>Resources</h1>
         <p className='resources-p'>Explore a wealth of resources to support your academic and professional journey in mechanical engineering.</p>
 
-        <div className="resource-section">
+        {/* <div className="resource-section">
             <h2>Event Reports</h2>
             <div className="resource-items">
                 {resources_data.event_reports.map((item, index) => (
@@ -18,9 +18,9 @@ export default function Resources() {
                     </a>
                 ))}
             </div>
-        </div>
+        </div> */}
 
-        <div className="resource-section">
+        {/* <div className="resource-section">
             <h2>Learning Resources</h2>
             <div className="resource-items">
                 {resources_data.learning_resources.map((item, index) => (
@@ -30,7 +30,7 @@ export default function Resources() {
                     </a>
                 ))}
             </div>
-        </div>
+        </div> */}
 
         <div className="resource-section">
             <h2>Recommended YouTube Channels</h2>
@@ -45,7 +45,7 @@ export default function Resources() {
             </div>
         </div>
 
-        <div className="resource-section">
+        {/* <div className="resource-section">
             <h2>Question Banks & Preparation</h2>
             <div className="resource-items">
                 {resources_data.question_banks.map((item, index) => (
@@ -55,7 +55,7 @@ export default function Resources() {
                     </a>
                 ))}
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

@@ -368,6 +368,18 @@ export const CoChairPersons_data = [
     },
 ]
 
+import developerImg from '../asset/OBs/CoChairPersons/AbdulRahuman_S.jpeg';
+
+export const developer_data = [
+    {
+        "name": "Abdul Rahuman S",
+        "position": "Web Developer",
+        "year": "2nd Year",
+        "image": developerImg,
+    }
+]
+
+
 
 /* import pOBs1 from './asset/OBs/p_OBs1.png';
 import pOBs2 from './asset/OBs/p_OBs2.png';

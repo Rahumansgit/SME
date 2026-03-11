@@ -98,3 +98,53 @@ export const other_events = {
         }
     ]
 };
+
+
+import mechamysteryHunt from '../asset/events/upcoming/mechamystery_hunt.jpg';
+import lyricChase from '../asset/events/upcoming/lyric_chase.jpg';
+import f1Simulation from '../asset/events/upcoming/f1_simulation.jpg';
+import turningTitans from '../asset/events/upcoming/turning_titans.jpg';
+import skywings from '../asset/events/upcoming/skywings.jpg';
+import fastFingers from '../asset/events/upcoming/fast_fingers.jpg';
+import athletics from '../asset/events/upcoming/athletics.jpg';
+import carrom from '../asset/events/upcoming/carrom.jpg';
+import chess from '../asset/events/upcoming/chess.jpg';
+
+export const upcoming_events = [
+    {
+        "title": "MechaMystery Hunt",
+        "img": mechamysteryHunt,
+    },
+    {
+        "title": "Lyric Chase",
+        "img": lyricChase,
+    },
+    {
+        "title": "F1 Simulation",
+        "img": f1Simulation,
+    },
+    {
+        "title": "Turning Titans",
+        "img": turningTitans,
+    },
+    {
+        "title": "Skywings",
+        "img": skywings,
+    },
+    {
+        "title": "Fast Fingers",
+        "img": fastFingers,
+    },
+    {
+        "title": "Athletics",
+        "img": athletics,   
+    },
+    {
+        "title": "Carrom",
+        "img": carrom,
+    },
+    {
+        "title": "Chess",
+        "img": chess,
+    }
+];

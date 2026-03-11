@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './OBs.css';
-import { ChairPersons_data, CoChairPersons_data } from '../../Utils/obs_data.js';
+import { ChairPersons_data, CoChairPersons_data, developer_data } from '../../Utils/obs_data.js';
 /* import { past_OBs_data } from '../../obs_data.js'; */
 import '../../Components/CardEffect/CardEffect.css'
 import { initCardEffect } from '../../Components/CardEffect/CardEffect';
@@ -35,7 +35,17 @@ export default function OBs() {
                 </div>
             ))}
         </div>
-        
+        <h2 className='current-OBS'>Web Developer</h2>
+        <div className="OBs-container">
+            {developer_data.map((ob, index) => (
+                <div className="OBs-card card-3d-effect" key={index}>
+                    <img src={ob.image} alt={ob.name} />
+                    <h2>{ob.name}</h2>
+                    <p>{ob.position}</p>
+                    <p style={{color: 'var(--primary)',fontWeight: '600'}}>{ob.year}</p>
+                </div>
+            ))}
+        </div>
 {/*         <h2 className='past-OBS'>Past Presidents Archive</h2>
         <div className="past-OBs-container">
           { past_OBs_data.map((ob, index) => (

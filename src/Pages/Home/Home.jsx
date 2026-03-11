@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import './Home.css';
 import bg from '../../asset/home/Home_bg1.jpg';
 const bg1 = '/Department1.png';
-import { latest_events } from '../../Utils/events_data';
+import { upcoming_events } from '../../Utils/events_data';
 import '../../Components/CardEffect/CardEffect.css'
 import { initCardEffect } from '../../Components/CardEffect/CardEffect';
 import { Link } from 'react-router-dom';
@@ -54,10 +59,35 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <div className="latest-events">
-        <h2>Latest Event & <span>Announcement</span></h2>
+       <div className="upcoming-events">
+        <h2>Upcoming Event & <span>Announcement</span></h2>
         <p>Stay updated with our recent activities and news</p>
-        <div className="event-cards">
+        <div className="event-card">
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination]}
+            className="mySwiper"
+          >
+            {upcoming_events.map((event, index) => (
+              <SwiperSlide key={index}>
+                <div className="event-content">
+                  <img src={event.img} alt={event.title} />
+                </div>
+              </SwiperSlide>
+            ))}
+
+          </Swiper>
+        </div>
+       {/* <div className="event-cards">
           {latest_events.map((event, index) => (
             <div key={index} className="event-card card-3d-effect">
               <img src={event.image} alt={`Event ${index + 1}`} />
@@ -65,8 +95,8 @@ export default function Home() {
               <p>{event.description}</p>
             </div>
           ))}
-        </div> 
-      </div> */}
+        </div>  */}
+      </div>
     </div>
   )
 }
