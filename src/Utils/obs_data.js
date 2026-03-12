@@ -139,8 +139,7 @@ import parthipanMImg from '../asset/OBs/CoChairPersons/Parthipan_M.jpg';
 import sadhanaTImg from '../asset/OBs/CoChairPersons/Sadhana_T.jpg';
 import akshayaBImg from '../asset/OBs/CoChairPersons/Akshaya_B.jpg';
 import safrinMariyamMImg from '../asset/OBs/CoChairPersons/SafrinMariyam_M.jpg';
-/* import harishkumar 
-import varshini*/
+import varshiniMImg from '../asset/OBs/CoChairPersons/Varshini_M.jpeg';
 import tharunRImg from '../asset/OBs/CoChairPersons/Tharun_R.jpg';
 import shajaKhanAImg from '../asset/OBs/CoChairPersons/ShajaKhan_A.JPG';
 import varshiniKImg from '../asset/OBs/CoChairPersons/Varshini_K.jpg';
@@ -230,15 +229,10 @@ export const CoChairPersons_data = [
         "year": "3rd Year",
         "image": safrinMariyamMImg
     },{
-        "name": "Harish Kumar",
-        "position": "Events",
-        "year": "3rd Year",
-        "image": OB8
-    },{
         "name": "Varshini",
         "position": "Events",
         "year": "3rd Year",
-        "image": pOBs1
+        "image": varshiniMImg
     },
     {
         "name": "Tharun R",
