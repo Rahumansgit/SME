@@ -60,7 +60,7 @@ export default function Home() {
         </div>
       </div>
        <div className="upcoming-events">
-        <h2 data-aos="fade-up">Upcoming Event & <span>Announcement</span></h2>
+        <h2 data-aos="fade-up">Upcoming Events & <span>Announcement</span></h2>
         <p data-aos="fade-up" data-aos-delay="100">Stay updated with our recent activities and news</p>
         <div className="event-card" data-aos="zoom-in" data-aos-delay="150">
           <Swiper
