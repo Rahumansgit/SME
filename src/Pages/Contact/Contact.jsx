@@ -5,6 +5,7 @@ import InstagramIcon from '../../asset/icons/logo-instagram.svg'
 import FacebookIcon from '../../asset/icons/logo-facebook.svg'
 import LinkedinIcon from '../../asset/icons/logo-linkedin.svg'
 import DrArunImg from '../../asset/contact/c3.png'
+import presidentImg from '../../asset/contact/faculties/president.png'
 import harishImg from '../../asset/OBs/ChairPersons/Harish.jpg';
 import jayashreeImg from '../../asset/OBs/ChairPersons/Jayashree.jpg';
 
@@ -21,9 +22,9 @@ export default function Contact() {
           <h2 data-aos="fade-up">Contacts</h2>
           <div className="contact-cards">
             <div className="contact-card" data-aos="zoom-in" data-aos-delay="0">
-              <img src={DrArunImg} alt="Dr. Arun Kumar" />
+              <img src={presidentImg} alt="Dr. Arun Kumar" />
               <div className="contact-details">
-                <h3>Dr. Arun Kumar</h3>
+                <h3>Dr. C. Balamurugan</h3>
                 <p>Faculty Advisor</p>
               </div>
             </div>

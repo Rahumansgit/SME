@@ -6,6 +6,9 @@ import AdvisorIcon from '../../asset/icons/message-square-check-svgrepo-com.svg'
 import { IoPersonOutline } from "react-icons/io5";
 import AchievementsIcon from '../../asset/icons/trophy-1-svgrepo-com.svg';
 import AdvisorImg from '../../asset/contact/c3.png';
+import hodImg from '../../asset/contact/faculties/hod.png';
+import presidentImg from '../../asset/contact/faculties/president.png'
+import vicePresidentImg from '../../asset/contact/faculties/vice_president.png'
 import '../../Components/CardEffect/CardEffect.css'
 import { initCardEffect } from '../../Components/CardEffect/CardEffect';
 
@@ -21,19 +24,19 @@ export default function About() {
   ]; */
     const facultyMembers = [
         {
-            name: "Dr. Eleanor Bennett",
-            title: "Faculty Advisor, Department of Mechanical Engineering",
-            img: AdvisorImg,
+            name: "Dr. S. Senthil Kumaran",
+            title: "HOD, Department of Mechanical Engineering",
+            img: hodImg,
         },
         {
-            name: "Dr. Michael Anderson",
-            title: "Associate Professor, Department of Mechanical Engineering",
-            img: AdvisorImg,
+            name: "Dr. C. Balamurugan",
+            title: "Professor, President of Society of Mechanical Engineer",
+            img: presidentImg,
         },
         {
-            name: "Dr. Sophia Martinez",
-            title: "Assistant Professor, Department of Mechanical Engineering",
-            img: AdvisorImg,
+            name: "Dr. K. Malarmohan",
+            title: "Professor, Vice President of Society of Mechanical Engineer",
+            img: vicePresidentImg,
         },
     ];
 
@@ -47,7 +50,7 @@ export default function About() {
         <div className="about-section" data-aos="fade-up">
             <h2><img src={HistoryIcon} alt="History" className="about-icon"/> History & Establishment</h2>
             <p>
-                Established in 1985, the Society of Mechanical Engineering (SME) at the College of Engineering Guindy has a proud legacy of nurturing technical excellence and innovation among students. Over the years, SME has grown into a vibrant student-driven organization that promotes learning beyond the classroom. <br /> <br />
+                Established in 1931, the Society of Mechanical Engineering (SME) at the College of Engineering Guindy has a proud legacy of nurturing technical excellence and innovation among students. Over the years, SME has grown into a vibrant student-driven organization that promotes learning beyond the classroom. <br /> <br />
                 The society was formed with the aim of bringing together passionate mechanical engineering students and faculty members to share knowledge, exchange ideas, and develop practical skills. Through various technical events, workshops, seminars, and competitions, SME has consistently encouraged students to enhance their abilities and stay updated with the latest advancements in engineering. <br /> <br />
                 Today, SME stands as an active platform that supports students in developing both technical expertise and professional skills, preparing them for future challenges in the engineering field.
             </p>
