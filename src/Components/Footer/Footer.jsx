@@ -48,7 +48,7 @@ export default function Footer() {
         <p>Design and Developed by <span><Link to="https://www.linkedin.com/in/abdul-rahuman-92b211374/" target="_blank">Abdul Rahuman S <img src={linkedin_icon} alt="LinkedIn" /></Link></span></p>
       </div>
       <div className="copyright">
-        <p>© 2026 Society of Mechanical Engineering, CEG, All Rights Reserved</p>
+        <p>© 2026 Society of Mechanical Engineers, CEG, All Rights Reserved</p>
       </div>    
     </>
     

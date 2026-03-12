@@ -90,7 +90,7 @@
 .developer-credit p{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
     font-size: 0.9rem;
     font-weight: 300;
     color: var(--text-muted);
@@ -109,7 +109,14 @@
 
 @media (max-width: 400px){
     .developer-credit{
-        display: flex;
+        gap: 10px;
+    }
+    .developer-credit p{
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 340px){
+    .developer-credit{
         flex-direction: column;
     }
 }
