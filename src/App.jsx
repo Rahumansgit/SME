@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Pages/Home/Home";
 import Events from "./Pages/Events/Events";
@@ -11,12 +11,32 @@ import Alumini from "./Pages/Alumini/Alumini";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes, Link, useLocation } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 import { ThemeProvider } from "./Components/Context/ThemeContext";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 700,
+      easing: "ease-out-cubic",
+      offset: 80,
+      delay: 0,
+      mirror: false,
+      anchorPlacement: "top-bottom",
+    });
+  }, []);
+
+  useEffect(() => {
+    // Ensure newly-mounted route content animates correctly
+    AOS.refresh();
+  }, [location.pathname]);
 
   return (
     <ThemeProvider>

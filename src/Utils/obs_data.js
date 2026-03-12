@@ -6,6 +6,7 @@ import OB5 from '../asset/OBs/OB5.png';
 import OB6 from '../asset/OBs/OB6.png';
 import OB7 from '../asset/OBs/OB7.png';
 import OB8 from '../asset/OBs/OB8.png';
+import pOBs1 from '../asset/OBs/p_OBs1.png';
 import harishImg from '../asset/OBs/ChairPersons/Harish.jpg';
 import jayashreeImg from '../asset/OBs/ChairPersons/Jayashree.jpg';
 import leelaImg from '../asset/OBs/ChairPersons/Leela.jpg';
@@ -154,13 +155,12 @@ import SivasubramanianSAImg from '../asset/OBs/CoChairPersons/Sivasubramanian_SA
 import jeevaPrasadVUImg from '../asset/OBs/CoChairPersons/jeevaprasad_VU.jpg';
 import malathiMImg from '../asset/OBs/CoChairPersons/Malathi_M.jpg';
 import kavinSImg from '../asset/OBs/CoChairPersons/Kavin_S.jpg';
-/* import shaneRoysstonA */
+import shaneRoysstonAImg from '../asset/OBs/CoChairPersons/ShaneRoysston_A.jpeg';
 import sivaBalanSSImg from '../asset/OBs/CoChairPersons/SivaBalan_SS.jpg';
 import prithivRajJImg from '../asset/OBs/CoChairPersons/PrithivRaj_J.jpg';
 import sanjaiKEImg from '../asset/OBs/CoChairPersons/Sanjai_KE.jpg';
 import sripriyanPImg from '../asset/OBs/CoChairPersons/Sripriyan_P.jpeg';
-/* import shaneRoysstonAImg from '../asset/OBs/CoChairPersons/ShaneRoysston_A.jpg';
-/* import sandiepLakshmanBA */ 
+import sandiepLakshmanBAImg from '../asset/OBs/CoChairPersons/SandiepLakshman_BA.jpeg';
 import yeshwanthKImg from '../asset/OBs/CoChairPersons/Yeshwanth_K.jpg';
 
 export const CoChairPersons_data = [
@@ -238,7 +238,7 @@ export const CoChairPersons_data = [
         "name": "Varshini",
         "position": "Events",
         "year": "3rd Year",
-        "image": OB4
+        "image": pOBs1
     },
     {
         "name": "Tharun R",
@@ -328,7 +328,7 @@ export const CoChairPersons_data = [
         "name": "Shane Roysston A",
         "position": "Quality Assurance Control",
         "year": "3rd Year",
-        "image": OB1
+        "image": shaneRoysstonAImg
     },
     {
         "name": "Siva Balan S S",
@@ -358,7 +358,7 @@ export const CoChairPersons_data = [
         "name": "Sandiep Lakshiman BA",
         "position": "Workshop",
         "year": "3rd Year",
-        "image": OB5
+        "image": sandiepLakshmanBAImg
     },
     {
         "name": "Yeshwanth K",

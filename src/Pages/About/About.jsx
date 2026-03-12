@@ -39,26 +39,39 @@ export default function About() {
 
   return (
     <div className='about'>
-        <div className="about-header">
-            <h1>About Us</h1>
-            <p>The Society of Mechanical Engineering (SME) at the College of Engineering Guindy is a student-run organization dedicated to fostering technical excellence and professional development.</p>
+        <div className="about-header" data-aos="fade-up">
+            <h1 data-aos="fade-up" data-aos-delay="50">About Us</h1>
+            <p data-aos="fade-up" data-aos-delay="150">The Society of Mechanical Engineering (SME) at the College of Engineering Guindy is a student-run organization dedicated to fostering technical excellence and professional development.</p>
         </div>
 
-        <div className="about-section">
+        <div className="about-section" data-aos="fade-up">
             <h2><img src={HistoryIcon} alt="History" className="about-icon"/> History & Establishment</h2>
-            <p>Established in 1985, the Society of Mechanical Engineering (SME) at the College of Engineering Guindy has a rich history of promoting technical knowledge and practical skills among its members. Over the years, SME has evolved into a dynamic platform for students to engage in various technical activities, workshops, and competitions, contributing significantly to their academic and professional growth.</p>
+            <p>
+                Established in 1985, the Society of Mechanical Engineering (SME) at the College of Engineering Guindy has a proud legacy of nurturing technical excellence and innovation among students. Over the years, SME has grown into a vibrant student-driven organization that promotes learning beyond the classroom. <br /> <br />
+                The society was formed with the aim of bringing together passionate mechanical engineering students and faculty members to share knowledge, exchange ideas, and develop practical skills. Through various technical events, workshops, seminars, and competitions, SME has consistently encouraged students to enhance their abilities and stay updated with the latest advancements in engineering. <br /> <br />
+                Today, SME stands as an active platform that supports students in developing both technical expertise and professional skills, preparing them for future challenges in the engineering field.
+            </p>
         </div>
 
-        <div className="about-section">
+        <div className="about-section" data-aos="fade-up" data-aos-delay="80">
             <h2><img src={MissionIcon} alt="Mission" className="about-icon"/> Objectives & Mission</h2>
-            <p>SME's primary objective is to bridge the gap between theoretical knowledge and practical application in mechanical engineering. Our mission is to provide students with opportunities to enhance their technical skills, explore emerging technologies, and network with industry professionals. We strive to create a vibrant community that encourages innovation, collaboration, and continuous learning.</p>
+            <p>
+                The primary objective of SME is to bridge the gap between theoretical knowledge and practical application in mechanical engineering. The society strives to create opportunities that help students strengthen their technical understanding and apply their knowledge to real-world problems. <br /> <br />
+                Our mission is to provide a dynamic environment where students can learn, innovate, collaborate, and grow professionally. SME aims to conduct technical workshops, guest lectures, industrial interactions, and project-based activities that expose students to emerging technologies and industry practices. <br /> <br />
+                By fostering teamwork, leadership, and continuous learning, SME seeks to build a community of aspiring engineers who are prepared to contribute meaningfully to the field of engineering and society.
+            </p>
         </div>
 
-        <div className="about-section">
+        <div className="about-section" data-aos="fade-up">
             <h2><IoPersonOutline className="about-icon" />Faculty Advisors</h2>
             <div className="faculty-card-container">
                 {facultyMembers.map((member, index) => (
-                    <div className="faculty-card card-3d-effect" key={index}>
+                    <div
+                        className="faculty-card card-3d-effect"
+                        key={index}
+                        data-aos="zoom-in"
+                        data-aos-delay={index * 120}
+                    >
                         <img src={member.img} alt={member.name} className='faculty-img' />
                         <div className="faculty-details">
                             <h3>{member.name}</h3>

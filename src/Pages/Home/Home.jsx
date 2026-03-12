@@ -22,27 +22,27 @@ export default function Home() {
     <div className='Home'>
       <div className="hero">
         <img className='bg' src={bg1} alt="" />
-        <div className="hero-content">
-          <h1>Society of Mechanical Engineers</h1>
-          <p>Empowering the next generation of mechanical engineers through innovation,<br /> collaboration, and excellence.</p>
-          <button><Link to="/about">Explore Our World</Link></button>          
+        <div className="hero-content" data-aos="fade-up" data-aos-duration="900">
+          <h1 data-aos="fade-up" data-aos-delay="50">Society of Mechanical Engineers</h1>
+          <p data-aos="fade-up" data-aos-delay="150">Empowering the next generation of mechanical engineers through innovation,<br /> collaboration, and excellence.</p>
+          <button data-aos="zoom-in" data-aos-delay="250"><Link to="/about">Explore Our World</Link></button>          
         </div>
       </div>
       <div className="home-content">
         <div className="section-1">
-          <div className="about-sme">
+          <div className="about-sme" data-aos="fade-right">
             <h2>About <span>SME</span></h2>
             <p>The Society of Mechanical Engineers (SME) is the official student association of the Department of Mechanical Engineering at the College of Engineering Guindy. Established in 1931, SME stands as one of India’s oldest and most prestigious student-run societies. Since its inception, the society has been dedicated to nurturing well-rounded engineers by fostering academic excellence, leadership capabilities, and essential professional skills.</p>
             <br />
             <p>Through a wide range of initiatives, including technical workshops, expert lectures, guidance programs, and career-oriented activities, SME provides a dynamic platform for students to learn, share ideas, and collaborate on innovative projects. The society plays a vital role in shaping future engineers who excel not only in academics but also in teamwork, creativity, and problem-solving.</p>
           </div>
-          <div className="about-dme">
+          <div className="about-dme" data-aos="fade-left" data-aos-delay="100">
             <h2>Department of <span>Mechanical Engineering</span></h2>
             <p>The Department of Mechanical Engineering at the College of Engineering Guindy (CEG), founded in 1894, is one of the oldest and most prestigious mechanical engineering departments in India. With a legacy of over a century, the department has been at the forefront of engineering education, research, and innovation. It is committed to nurturing technically skilled, research-driven, and socially responsible engineers who contribute to technological advancement and sustainable development. Through its modern infrastructure, distinguished faculty, and strong industry partnerships, the department continues to set benchmarks in mechanical engineering education and practice</p>
           </div>
         </div>
         <div className="section-2">
-          <div className="mission">
+          <div className="mission" data-aos="fade-up">
             <h3>Our Mission</h3>
             <p>Organize technical and non-technical events, workshops, and symposiums to enhance student development.</p>
 
@@ -52,7 +52,7 @@ export default function Home() {
 
             <p>Support students in achieving balance between academic excellence and extracurricular engagement.</p>
           </div>
-          <div className="vision">
+          <div className="vision" data-aos="fade-up" data-aos-delay="120">
             <h3>Our Vision</h3>
             <p>To shape students into skilled engineers and responsible individuals by building a strong foundation for both technical excellence and professional growth.
             </p>
@@ -60,9 +60,9 @@ export default function Home() {
         </div>
       </div>
        <div className="upcoming-events">
-        <h2>Upcoming Event & <span>Announcement</span></h2>
-        <p>Stay updated with our recent activities and news</p>
-        <div className="event-card">
+        <h2 data-aos="fade-up">Upcoming Event & <span>Announcement</span></h2>
+        <p data-aos="fade-up" data-aos-delay="100">Stay updated with our recent activities and news</p>
+        <div className="event-card" data-aos="zoom-in" data-aos-delay="150">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}

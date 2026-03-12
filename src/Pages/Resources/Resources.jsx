@@ -5,8 +5,8 @@ import { resources_data } from '../../Utils/resources_data';
 export default function Resources() {
   return (
     <div className='resources'>
-        <h1>Resources</h1>
-        <p className='resources-p'>Explore a wealth of resources to support your academic and professional journey in mechanical engineering.</p>
+        <h1 data-aos="fade-up">Resources</h1>
+        <p className='resources-p' data-aos="fade-up" data-aos-delay="120">Explore a wealth of resources to support your academic and professional journey in mechanical engineering.</p>
 
         {/* <div className="resource-section">
             <h2>Event Reports</h2>
@@ -33,10 +33,17 @@ export default function Resources() {
         </div> */}
 
         <div className="resource-section">
-            <h2>Recommended YouTube Channels</h2>
+            <h2 data-aos="fade-up">Recommended YouTube Channels</h2>
             <div className="resource-items">
                 {resources_data.youtube_channels.map((item, index) => (
-                    <a target='_blank' href={item.link} key={index} className="resource-item">
+                    <a
+                        target='_blank'
+                        href={item.link}
+                        key={index}
+                        className="resource-item"
+                        data-aos="fade-up"
+                        data-aos-delay={Math.min(index * 80, 320)}
+                    >
                         <img src={item.icon} alt="" />
                         <span>{item.name}</span>
                     </a>

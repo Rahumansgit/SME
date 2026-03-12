@@ -11,12 +11,17 @@ export default function OBs() {
   }, []);
   return (
     <div className='OBs'>
-        <h1>Office Bearers</h1>
-        <p className='OBs-p'>Meet the dedicated team leading the Society of Mechanical Engineering at the <br />College of Engineering Guindy.</p>
-        <h2 className='current-OBS'>Current Chair Persons (2025-2026)</h2>
+        <h1 data-aos="fade-up">Office Bearers</h1>
+        <p className='OBs-p' data-aos="fade-up" data-aos-delay="120">Meet the dedicated team leading the Society of Mechanical Engineering at the <br />College of Engineering Guindy.</p>
+        <h2 className='current-OBS' data-aos="fade-up">Current Chair Persons (2025-2026)</h2>
         <div className="OBs-container">
             {ChairPersons_data.map((ob, index) => (
-                <div className="OBs-card card-3d-effect" key={index}>
+                <div
+                    className="OBs-card card-3d-effect"
+                    key={index}
+                    data-aos="zoom-in"
+                    data-aos-delay={Math.min(index * 90, 360)}
+                >
                     <img src={ob.image} alt={ob.name} />
                     <h2>{ob.name}</h2>
                     <p>{ob.position}</p>
@@ -24,10 +29,15 @@ export default function OBs() {
                 </div>
             ))}
         </div>
-        <h2 className='current-OBS'>Current Co-Chair Persons (2025-2026)</h2>
+        <h2 className='current-OBS' data-aos="fade-up">Current Co-Chair Persons (2025-2026)</h2>
         <div className="OBs-container">
             {CoChairPersons_data.map((ob, index) => (
-                <div className="OBs-card card-3d-effect" key={index}>
+                <div
+                    className="OBs-card card-3d-effect"
+                    key={index}
+                    data-aos="zoom-in"
+                    data-aos-delay={Math.min(index * 90, 360)}
+                >
                     <img src={ob.image} alt={ob.name} />
                     <h2>{ob.name}</h2>
                     <p>{ob.position}</p>
@@ -35,10 +45,15 @@ export default function OBs() {
                 </div>
             ))}
         </div>
-        <h2 className='current-OBS'>Web Developer</h2>
+        <h2 className='current-OBS' data-aos="fade-up">Web Developer</h2>
         <div className="OBs-container">
             {developer_data.map((ob, index) => (
-                <div className="OBs-card card-3d-effect" key={index}>
+                <div
+                    className="OBs-card card-3d-effect"
+                    key={index}
+                    data-aos="zoom-in"
+                    data-aos-delay={Math.min(index * 90, 360)}
+                >
                     <img src={ob.image} alt={ob.name} />
                     <h2>{ob.name}</h2>
                     <p>{ob.position}</p>

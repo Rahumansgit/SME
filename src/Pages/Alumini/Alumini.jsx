@@ -6,13 +6,18 @@ import { aluminiData } from '../../Utils/alumini_data';
 const Alumini = () => {
   return (
     <div className='alumini-section'>
-      <div className="about-header">
-            <h1><span style={{color: "var(--primary)"}}>Alumini</span> Connect</h1>
-            <p>Meet our alumnis from Mechanical Department. <br /> Reconnect with peers, celebrate achievements, and build lasting professional relationships within the SME CEG family.</p>
+      <div className="about-header" data-aos="fade-up">
+            <h1 data-aos="fade-up" data-aos-delay="50"><span style={{color: "var(--primary)"}}>Alumini</span> Connect</h1>
+            <p data-aos="fade-up" data-aos-delay="150">Meet our alumnis from Mechanical Department. <br /> Reconnect with peers, celebrate achievements, and build lasting professional relationships within the SME CEG family.</p>
         </div>
         <div className="alumini-container">
           {aluminiData.map((alumini, index) => (
-            <div className="alumini-card" key={index}>
+            <div
+              className="alumini-card"
+              key={index}
+              data-aos="fade-up"
+              data-aos-delay={Math.min(index * 70, 350)}
+            >
               <h4 className='alumini-name'>{alumini.name}</h4>
               {/* <p className='graduation-year'>Class of {alumini.year_of_graduation}</p>
               <p className='alumini-position'>{alumini.current_position}</p> */}

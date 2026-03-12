@@ -11,8 +11,8 @@ export default function NonTechnicalEvent() {
 
   return (
     <div className='non-technical-event'>
-      <h3 className='non-technical-head'>Non-Technical Events</h3>
-      <div className="tabs">
+      <h3 className='non-technical-head' data-aos="fade-up">Non-Technical Events</h3>
+      <div className="tabs" data-aos="fade-up" data-aos-delay="100">
           {tabs.map((tab) => (
               <span
                   key={tab.id}
@@ -25,7 +25,12 @@ export default function NonTechnicalEvent() {
       </div>
       <div className="tab-content">
           {other_events[activeTab].map((event, index) => (
-              <div key={index} className="event-item">
+              <div
+                  key={index}
+                  className="event-item"
+                  data-aos="fade-up"
+                  data-aos-delay={Math.min(index * 80, 320)}
+              >
                   <img src={event.image} alt={event.title} />
                   <div className="event-details">
                       <h4>{event.title}</h4>

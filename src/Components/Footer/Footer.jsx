@@ -11,14 +11,14 @@ export default function Footer() {
   return (
     <>
   <div className='footer'>
-        <div className="footer-left">
+        <div className="footer-left" data-aos="fade-up">
           <Link className="logo" to="/">
             <img src={logo} alt="Logo" className="footer-logo" />
             <span className="footer-site-name">SME</span>
           </Link>          
           <p>Society of Mechanical Engineering, College of <br /> Engineering Guindy</p>
         </div>
-        <div className="footer-middle">
+        <div className="footer-middle" data-aos="fade-up" data-aos-delay="120">
           <div className="quick-links">
             <h3 style={{color: 'var(--text-color)'}}>Quick Links</h3>
             <ul>
@@ -33,7 +33,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="footer-right">
+        <div className="footer-right" data-aos="fade-up" data-aos-delay="240">
           <h3 style={{color: 'var(--text-color)'}}>Follow Us</h3>
           <div className="social-icons">
             <a href="https://www.instagram.com/sme_ceg/" target="_blank" rel="noopener noreferrer"><img src={insta_icon} alt="Instagram" /></a>
@@ -43,11 +43,11 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="developer-credit">
+      <div className="developer-credit" data-aos="fade-up">
         <img src={develperImg} alt="Developer" />
         <p>Design and Developed by <span><Link to="https://www.linkedin.com/in/abdul-rahuman-92b211374/" target="_blank">Abdul Rahuman S <img src={linkedin_icon} alt="LinkedIn" /></Link></span></p>
       </div>
-      <div className="copyright">
+      <div className="copyright" data-aos="fade-up">
         <p>© 2026 Society of Mechanical Engineers, CEG, All Rights Reserved</p>
       </div>    
     </>
