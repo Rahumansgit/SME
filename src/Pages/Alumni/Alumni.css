@@ -1,4 +1,4 @@
-.alumini {
+.alumni {
   padding-bottom: 4rem;
 }
 
@@ -20,19 +20,19 @@
     line-height: 1.6;
 }
 
-.alumini-section {
+.alumni-section {
   max-width: 1200px;
   margin: 4rem auto;
   padding: 0 2rem;
 }
 
-.alumini-container {
+.alumni-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
 }
 
-.alumini-card {
+.alumni-card {
   background-color: var(--card-bg);
   border: 1px solid var(--nav-border);
   border-radius: 12px;
@@ -41,7 +41,7 @@
   flex-direction: column;
 }
 
-.alumini-name {
+.alumni-name {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-color);
@@ -52,12 +52,12 @@
   color: var(--primary);
 }
 
-.alumini-position {
+.alumni-position {
   font-size: 1rem;
   color: var(--text-muted);
   margin-top: 0.5rem;
 }
-.alumini-card a{
+.alumni-card a{
   margin-top: 0.5rem;
   color: var(--primary);
   font-weight: 600;
@@ -67,12 +67,12 @@
 
 /* Feature Updates 
 
-.alumini-hero {
+.alumni-hero {
   position: relative;
   height: 60vh;
   background-image: 
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../../asset/alumini/a1.png");
+    url("../../asset/alumni/a1.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -82,25 +82,25 @@
   color: #fff;
 }
 
-.alumini-hero-content {
+.alumni-hero-content {
   max-width: 800px;
   padding: 0 20px;
 }
 
-.alumini-hero-content h1 {
+.alumni-hero-content h1 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
 
-.alumini-hero-content p {
+.alumni-hero-content p {
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 2.5rem;
   color: rgba(255, 255, 255, 0.9);
 }
 
-.alumini-hero-content button {
+.alumni-hero-content button {
   background-color: var(--primary);
   color: var(--text-color);
   border: none;
@@ -116,24 +116,24 @@
   transition: all 0.3s ease;
 }
 
-.alumini-hero-content button img {
+.alumni-hero-content button img {
   width: 20px;
   height: 25px;
   filter: brightness(0) invert(1);
 }
 
-.alumini-hero-content button:hover {
+.alumni-hero-content button:hover {
  background-color: white;
  color: var(--primary);
  transform: scale(1.05);
 
 }
 
-.alumini-hero-content button:hover img {
+.alumni-hero-content button:hover img {
   filter: none;
 }
 
-.alumini-section {
+.alumni-section {
   max-width: 1200px;
   margin: 4rem auto;
   padding: 0 2rem;

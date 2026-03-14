@@ -177,13 +177,13 @@ export const CoChairPersons_data = [
     },
     {
         "name": "Akash R",
-        "position": "Alumini Relations",
+        "position": "Alumni Relations",
         "year": "3rd Year",
         "image": akashRImg
     },
     {
         "name": "Nivashiha D",
-        "position": "Alumini Relations",
+        "position": "Alumni Relations",
         "year": "3rd Year",
         "image": nivashihaDImg
     },

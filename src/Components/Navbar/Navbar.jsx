@@ -51,7 +51,7 @@ export default function Navbar() {
 {/*             <li className={location.pathname === '/Events' ? 'active' : ''}><Link to="/Events">Events</Link></li>
             <li className={location.pathname === '/Projects' ? 'active' : ''}><Link to="/Projects">Projects</Link></li> */}
             <li className={location.pathname === '/Resources' ? 'active' : ''}><Link to="/Resources">Resources</Link></li>
-            <li className={location.pathname === '/Alumini' ? 'active' : ''}><Link to="/Alumini">Alumini Connect</Link></li>
+            <li className={location.pathname === '/Alumni' ? 'active' : ''}><Link to="/Alumni">Alumni Connect</Link></li>
             <li className={location.pathname === '/About' ? 'active' : ''}><Link to="/About">About Us</Link></li>
             <li className={location.pathname === '/OBs' ? 'active' : ''}><Link to="/OBs">Office Bearers</Link></li>
             <li className={location.pathname === '/Contact' ? 'active' : ''}><Link to="/Contact">Contact</Link></li>
@@ -84,7 +84,7 @@ export default function Navbar() {
 {/*               <li className={location.pathname === '/Events' ? 'active' : ''}><Link to="/Events" onClick={closeMenu}>Events</Link></li>
               <li className={location.pathname === '/Projects' ? 'active' : ''}><Link to="/Projects" onClick={closeMenu}>Projects</Link></li> */}
               <li className={location.pathname === '/Resources' ? 'active' : ''}><Link to="/Resources" onClick={closeMenu}>Resources</Link></li>
-              <li className={location.pathname === '/Alumini' ? 'active' : ''}><Link to="/Alumini" onClick={closeMenu}>Alumini Connect</Link></li>
+              <li className={location.pathname === '/Alumni' ? 'active' : ''}><Link to="/Alumni" onClick={closeMenu}>Alumni Connect</Link></li>
               <li className={location.pathname === '/About' ? 'active' : ''}><Link to="/About" onClick={closeMenu}>About Us</Link></li>
               <li className={location.pathname === '/OBs' ? 'active' : ''}><Link to="/OBs" onClick={closeMenu}>Office Bearers</Link></li>
               <li className={location.pathname === '/Contact' ? 'active' : ''}><Link to="/Contact" onClick={closeMenu}>Contact</Link></li>

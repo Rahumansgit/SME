@@ -1,27 +1,27 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './Alumini.css';
+import './Alumni.css';
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { aluminiData } from '../../Utils/alumini_data';
 
-const Alumini = () => {
+const Alumni = () => {
   return (
-    <div className='alumini-section'>
+    <div className='alumni-section'>
       <div className="about-header" data-aos="fade-up">
-            <h1 data-aos="fade-up" data-aos-delay="50"><span style={{color: "var(--primary)"}}>Alumini</span> Connect</h1>
+            <h1 data-aos="fade-up" data-aos-delay="50"><span style={{color: "var(--primary)"}}>Alumni</span> Connect</h1>
             <p data-aos="fade-up" data-aos-delay="150">Meet our alumnis from Mechanical Department. <br /> Reconnect with peers, celebrate achievements, and build lasting professional relationships within the SME CEG family.</p>
         </div>
-        <div className="alumini-container">
-          {aluminiData.map((alumini, index) => (
+        <div className="alumni-container">
+          {aluminiData.map((alumni, index) => (
             <div
-              className="alumini-card"
+              className="alumni-card"
               key={index}
               data-aos="fade-up"
               data-aos-delay={Math.min(index * 70, 350)}
             >
-              <h4 className='alumini-name'>{alumini.name}</h4>
-              {/* <p className='graduation-year'>Class of {alumini.year_of_graduation}</p>
-              <p className='alumini-position'>{alumini.current_position}</p> */}
-              <a href={alumini.linkedin} target="_blank" rel="noopener noreferrer">
+              <h4 className='alumni-name'>{alumni.name}</h4>
+              {/* <p className='graduation-year'>Class of {alumni.year_of_graduation}</p>
+              <p className='alumni-position'>{alumni.current_position}</p> */}
+              <a href={alumni.linkedin} target="_blank" rel="noopener noreferrer">
                 View Linkedin Profile <FaExternalLinkAlt size={12} />
               </a>
             </div>
@@ -31,21 +31,21 @@ const Alumini = () => {
   )
 }
 
-export default Alumini
+export default Alumni
 
 {/* Feature Updates */}
 
 /* 
-import a1 from '../../asset/alumini/a1.png';
-import a2 from '../../asset/alumini/a2.png';
-import a3 from '../../asset/alumini/a3.png';
-import ap1 from '../../asset/alumini/ap1.png';
-import ap2 from '../../asset/alumini/ap2.png';
-import ap3 from '../../asset/alumini/ap3.png';
+import a1 from '../../asset/alumni/a1.png';
+import a2 from '../../asset/alumni/a2.png';
+import a3 from '../../asset/alumni/a3.png';
+import ap1 from '../../asset/alumni/ap1.png';
+import ap2 from '../../asset/alumni/ap2.png';
+import ap3 from '../../asset/alumni/ap3.png';
 import groupAddIcon from '../../asset/icons/group-add-people-svgrepo-com.svg';
 import eventIcon from '../../asset/icons/event-svgrepo-com.svg';
 
-export default function Alumini() {
+export default function Alumni() {
   const [selectedEvent, setSelectedEvent] = useState(null);
   const scrollerRef = useRef(null);
   const [isHovering, setIsHovering] = useState(false);
@@ -163,9 +163,9 @@ export default function Alumini() {
   ];
 
   return (
-    <div className='alumini'>
-      <div className="alumini-hero">
-        <div className="alumini-hero-content">
+    <div className='alumni'>
+      <div className="alumni-hero">
+        <div className="alumni-hero-content">
           <h1>Alumni Connect</h1>
           <p>Reconnect with peers, celebrate achievements, and build lasting professional relationships within the SME CEG family.</p>
           <button>
@@ -174,7 +174,7 @@ export default function Alumini() {
         </div>
       </div>
 
-      <div className="alumini-section">
+      <div className="alumni-section">
         <h2 className="section-title">Recent Alumni Meet Highlights</h2>
         <div 
           className="alumni-meet-scroller"
@@ -202,7 +202,7 @@ export default function Alumini() {
         </div>
       </div>
 
-      <div className="alumini-section">
+      <div className="alumni-section">
         <h2 className="section-title">Success Stories</h2>
         <div className="success-stories-container">
           {successStories.map((story, index) => (
@@ -220,7 +220,7 @@ export default function Alumini() {
         </div>
       </div>
 
-      <div className="alumini-section">
+      <div className="alumni-section">
         <h2 className="section-title">Messages from Alumni</h2>
         <div className="messages-container">
           {alumniMessages.map((msg, index) => (
@@ -238,7 +238,7 @@ export default function Alumini() {
         </div>
       </div>
 
-      <div className="alumini-section">
+      <div className="alumni-section">
         <div className="networking-card">
           <div className="networking-content">
             <h2>Networking Opportunities</h2>

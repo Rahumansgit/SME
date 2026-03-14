@@ -7,7 +7,7 @@ import Pinnacle from "./Components/Pinnacle/Pinnacle"; */
 import OBs from "./Pages/OBs/OBs";
 import Projects from "./Pages/Projects/Projects";
 import Resources from "./Pages/Resources/Resources";
-import Alumini from "./Pages/Alumini/Alumini";
+import Alumni from "./Pages/Alumni/Alumni";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
@@ -48,7 +48,7 @@ function App() {
         <Route path="/OBs" element={<OBs />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Resources" element={<Resources />} />
-        <Route path="/Alumini" element={<Alumini />} />
+        <Route path="/Alumni" element={<Alumni />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Join" element={

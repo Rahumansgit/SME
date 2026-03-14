@@ -26,7 +26,7 @@ export default function Footer() {
 {/*               <Link className='qlinks' to="/Events">Events & Symposiums</Link>
               <Link className='qlinks' to="/Projects">Projects & Innovations</Link> */}
               <Link className='qlinks' to="/Resources">Resources</Link>
-              <Link className='qlinks' to="/Alumini">Alumini Connect</Link>
+              <Link className='qlinks' to="/Alumni">Alumni Connect</Link>
               <Link className='qlinks' to="/About">About Us</Link>
               <Link className='qlinks' to="/OBs">Office Bearers</Link>
               <Link className='qlinks' to="/Contact">Contact Us</Link>
