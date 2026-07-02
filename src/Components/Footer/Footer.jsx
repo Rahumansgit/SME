@@ -45,7 +45,7 @@ export default function Footer() {
       </div>
       <div className="developer-credit" data-aos="fade-up">
         <img src={develperImg} alt="Developer" />
-        <p>Design and Developed by <span><Link to="https://www.linkedin.com/in/abdul-rahuman-92b211374/" target="_blank">Abdul Rahuman S <img src={linkedin_icon} alt="LinkedIn" /></Link></span></p>
+        <p>Design and Developed by <span><Link to="https://www.linkedin.com/in/abdul-rahuman-dev" target="_blank">Abdul Rahuman S <img src={linkedin_icon} alt="LinkedIn" /></Link></span></p>
       </div>
       <div className="copyright" data-aos="fade-up">
         <p>© 2026 Society of Mechanical Engineers, CEG, All Rights Reserved</p>
