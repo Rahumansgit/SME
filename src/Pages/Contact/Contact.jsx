@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import './Contact.css'
 import EmailIcon from '../../asset/icons/email-svgrepo-com.svg'
 import InstagramIcon from '../../asset/icons/logo-instagram.svg'
@@ -10,6 +11,26 @@ import harishImg from '../../asset/OBs/ChairPersons/Harish.jpg';
 import jayashreeImg from '../../asset/OBs/ChairPersons/Jayashree.jpg';
 
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault(); 
+
+    emailjs.sendForm(
+      'service_nd13iwj',
+      'template_czaaym8',
+      form.current, 
+      'vwalCTl45UpDT2ql2'
+    )
+    .then((result) => {
+        alert('Message sent successfully!');
+        e.target.reset(); 
+    }, (error) => {
+        alert('Failed to send the message. Error: ' + error.text);
+    });
+  };
+
   return (
     <div className='contact'>
       <div className="contact-header" data-aos="fade-up">
@@ -69,20 +90,26 @@ export default function Contact() {
 
         <div className="contact-form" data-aos="fade-left">
           <h2 data-aos="fade-up">Feedback & Suggestions</h2>
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
+            
             <div className="form-group" data-aos="fade-up" data-aos-delay="0">
               <label htmlFor="name">Name</label>
-              <input type="text" id="name" placeholder="Your Name" />
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
             </div>
+            
             <div className="form-group" data-aos="fade-up" data-aos-delay="80">
               <label htmlFor="email">Email</label>
-              <input type="email" id="email" placeholder="Your Email" />
+              <input type="email" id="email" name="email" placeholder="Your Email" required />
             </div>
+            
             <div className="form-group" data-aos="fade-up" data-aos-delay="160">
               <label htmlFor="message">Message</label>
-              <textarea id="message" rows="6" placeholder="Your message"></textarea>
+              <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
             </div>
-            <button type="submit" className="submit-btn" data-aos="zoom-in" data-aos-delay="240">Submit</button>
+            
+            <button type="submit" className="submit-btn" data-aos="zoom-in" data-aos-delay="240">
+              Submit
+            </button>
           </form>
         </div>
       </div>
