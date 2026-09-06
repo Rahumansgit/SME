@@ -25,106 +25,106 @@ import arasiImg from '../asset/OBs/ChairPersons/Arasi.jpg';
 
 export const ChairPersons_data = [
     {
-        "name": "Harish L",
+        "name": "Akash R",
         "position": "Male President",
-        "year": "4th Year",
-        "image": harishImg
-    },
-    {
-        "name": "Jayashree M",
-        "position": "Female President",
-        "year": "4th Year",
-        "image": jayashreeImg
-    },
-    {
-        "name": "Sanjai B",
-        "position": "Secretary and Treasurer",
         "year": "4th Year",
         "image": OB1
     },
     {
-        "name": "Leela K",
+        "name": "M. Varshini",
+        "position": "Female President",
+        "year": "4th Year",
+        "image": OB1
+    },
+    {
+        "name": "Akshaya B",
+        "position": "Student Secretary and Treasurer",
+        "year": "4th Year",
+        "image": OB1
+    },
+    {
+        "name": "Nivashiha D",
         "position": "Alumni Relations",
         "year": "4th Year",
-        "image": leelaImg
+        "image": OB1
     },
     {
-        "name": "Dharshini P",
-        "position": "Contents",
+        "name": "Sumathi C",
+        "position": "Content",
         "year": "4th Year",
-        "image": dharshiniImg
+        "image": OB1
     },
     {
-        "name": "Rahasiya M",
+        "name": "Aslin Francy XA",
         "position": "Design",
         "year": "4th Year",
-        "image": rahasiyaImg
+        "image": OB1
     },
     {
-        "name": "Adithya K",
+        "name": "Swetha P",
         "position": "Documentation",
         "year": "4th Year",
-        "image": adithyaImg
+        "image": OB1
     },
     {
-        "name": "Navin Kumar R",
-        "position": "Events",    
+        "name": "R Tharun",
+        "position": "Events",
         "year": "4th Year",
-        "image": navinImg
+        "image": OB1
     },
     {
-        "name": "Ramajayam V",
-        "position": "Finance",
-        "year": "4th Year",
-        "image": OB2
-    },
-    {
-        "name": "Mydunya S",
+        "name": "Shali S",
         "position": "Hospitality",
         "year": "4th Year",
-        "image": mydunyaImg
+        "image": OB1
     },
     {
-        "name": "Sanjai N",
+        "name": "Shane Roysston",
         "position": "Human Resources",
         "year": "4th Year",
-        "image": sanjaiNImg
+        "image": OB1
     },
     {
-        "name": "Nandhitta S",
-        "position": "Indusrial Relations",
+        "name": "Anantha Krishnan P",
+        "position": "Industrial Relations",
         "year": "4th Year",
-        "image": nandhittaImg
+        "image": OB1
     },
     {
-        "name": "Navaneethan M",
+        "name": "Edwin Gnanaraj H",
         "position": "Logistics",
         "year": "4th Year",
-        "image": OB4
+        "image": OB1
     },
     {
-        "name": "Harish K",
-        "position": "Marketing and Media",
+        "name": "Kavin S",
+        "position": "Marketing & Media",
         "year": "4th Year",
-        "image": harishKImg
+        "image": OB1
     },
     {
-        "name": "Nandhini B",
+        "name": "Sivabalan S S",
         "position": "Quality Assurance Control",
         "year": "4th Year",
-        "image": nandhiniImg
+        "image": OB1
     },
     {
-        "name": "Sandeep S",
+        "name": "Sripriyan",
         "position": "Signature Events",
         "year": "4th Year",
-        "image": sandeepImg
+        "image": OB1
     },
     {
-        "name": "Arasi S",    
+        "name": "S. Anish kumar",
         "position": "Workshop",
         "year": "4th Year",
-        "image": arasiImg
+        "image": OB1
+    },
+    {
+        "name": "Sadhana.",
+        "position": "External Attairs",
+        "year": "4th Year",
+        "image": OB1
     }
 ]
 
@@ -164,202 +164,191 @@ import yeshwanthKImg from '../asset/OBs/CoChairPersons/Yeshwanth_K.jpg';
 
 export const CoChairPersons_data = [
     {
-        "name": "Karthik S",
-        "position": "Vice Male President",
+        "name": "Thunish Vijay M S",
+        "position": "Male Vice President",
         "year": "3rd Year",
-        "image": karthikSImg
+        "image": OB2
     },
     {
-        "name": "Abinaya R",
-        "position": "Vice Female President",
+        "name": "Rithanya P",
+        "position": "Female Vice President",
         "year": "3rd Year",
-        "image": abinayaRImg
+        "image": OB2
     },
     {
-        "name": "Akash R",
-        "position": "Alumni Relations",
+        "name": "Kamalini A",
+        "position": "Alumini Relation",
         "year": "3rd Year",
-        "image": akashRImg
+        "image": OB2
     },
     {
-        "name": "Nivashiha D",
-        "position": "Alumni Relations",
+        "name": "Mathimala S",
+        "position": "Alumini Relation",
         "year": "3rd Year",
-        "image": nivashihaDImg
+        "image": OB2
     },
     {
-        "name": "Sanjai Pandi M",
+        "name": "Varun K",
         "position": "Contents",
         "year": "3rd Year",
-        "image": sanjaiPandiMImg
+        "image": OB2
     },
     {
-        "name": "Sumathi C",
-        "position": "Contents",
-        "year": "3rd Year",
-        "image": sumathiCImg
-    },
-    {
-        "name": "Sanjay Saravanavel R",
-        "position": "Design",
-        "year": "3rd Year",
-        "image": sanjaySaravanavelRImg
-    },
-    {
-        "name": "Parthipan M",
-        "position": "Design",
-        "year": "3rd Year",
-        "image": parthipanMImg
-    },
-    {
-        "name": "Sadhana T",
-        "position": "Design",
-        "year": "3rd Year",
-        "image": sadhanaTImg
-    },
-    {
-        "name": "Akshaya B",
+        "name": "Venkatanarayanan S R",
         "position": "Documentation",
         "year": "3rd Year",
-        "image": akshayaBImg
+        "image": OB2
     },
     {
-        "name": "Safrin Mariyam M",
-        "position": "Documentation",
+        "name": "Sarvesh R",
+        "position": "Industrial Relation",
         "year": "3rd Year",
-        "image": safrinMariyamMImg
-    },{
-        "name": "Varshini",
-        "position": "Events",
-        "year": "3rd Year",
-        "image": varshiniMImg
+        "image": OB2
     },
     {
-        "name": "Tharun R",
-        "position": "Events",
+        "name": "Vigneshwar M",
+        "position": "Industrial Relation",
         "year": "3rd Year",
-        "image": tharunRImg
+        "image": OB2
     },
     {
-        "name": "ShajaKhan A",
+        "name": "Nitheeswara V",
+        "position": "Marketing & Media",
+        "year": "3rd Year",
+        "image": OB2
+    },
+    {
+        "name": "Pushpa S",
+        "position": "Marketing & Media",
+        "year": "3rd Year",
+        "image": OB2
+    },
+    {
+        "name": "Sivachandhini S",
+        "position": "Marketing & Media",
+        "year": "3rd Year",
+        "image": OB2
+    },
+    {
+        "name": "Sarvesh S",
+        "position": "Marketing & Media",
+        "year": "3rd Year",
+        "image": OB2
+    },
+    {
+        "name": "Prajan Y",
         "position": "Human Resources",
         "year": "3rd Year",
-        "image": shajaKhanAImg
+        "image": OB2
     },
     {
-        "name": "Varshini K",
+        "name": "Bhavani S",
         "position": "Human Resources",
         "year": "3rd Year",
-        "image": varshiniKImg
+        "image": OB2
     },
     {
-        "name": "Kalai Arasan A",
+        "name": "Keerthi Varadarajan V",
         "position": "Human Resources",
         "year": "3rd Year",
-        "image": kalaiArasanAImg
+        "image": OB2
     },
     {
-        "name": "Selva Lakshimi A",
-        "position": "Hospitality",
-        "year": "3rd Year",
-        "image": selvaLakshimiAImg
-    },
-    {
-        "name": "Shali S",
-        "position": "Hospitality",
-        "year": "3rd Year",
-        "image": shaliSImg
-    },
-    {
-        "name": "Sridhar K",
-        "position": "Hospitality",
-        "year": "3rd Year",
-        "image": sridharKImg
-    },
-    {
-        "name": "Veda Varshini R",
-        "position": "Industrial Relations",
-        "year": "3rd Year",
-        "image": vedaVarshiniRImg
-    },
-    {
-        "name": "Karthikeyan G",
-        "position": "Industrial Relations",
-        "year": "3rd Year",
-        "image": karthikeyanGImg
-    },
-    {
-        "name": "Baranidharan S",
+        "name": "Aravind G",
         "position": "Logistics",
         "year": "3rd Year",
-        "image": BaranidharanSImg
+        "image": OB2
     },
     {
-        "name": "Sivasubramanian S A",
+        "name": "Karthikeyan T",
         "position": "Logistics",
         "year": "3rd Year",
-        "image": SivasubramanianSAImg
+        "image": OB2
     },
     {
-        "name": "Jeeva Prasad V U",
-        "position": "Marketing and Media",
+        "name": "Almas",
+        "position": "Design",
         "year": "3rd Year",
-        "image": jeevaPrasadVUImg
+        "image": OB2
     },
     {
-        "name": "Malathi M",
-        "position": "Marketing and Media",
+        "name": "Mukilan B",
+        "position": "Design",
         "year": "3rd Year",
-        "image": malathiMImg
+        "image": OB2
     },
     {
-        "name": "Kavin S",
-        "position": "Marketing and Media",
+        "name": "Dancy Brindha R",
+        "position": "Events",
         "year": "3rd Year",
-        "image": kavinSImg
+        "image": OB2
     },
     {
-        "name": "Shane Roysston A",
-        "position": "Quality Assurance Control",
+        "name": "Tharkesh K",
+        "position": "Events",
         "year": "3rd Year",
-        "image": shaneRoysstonAImg
+        "image": OB2
     },
     {
-        "name": "Siva Balan S S",
-        "position": "Quality Assurance Control",
+        "name": "Parkavi A",
+        "position": "External Affairs",
         "year": "3rd Year",
-        "image": sivaBalanSSImg
+        "image": OB2
     },
     {
-        "name": "Prithiv Raj J",
-        "position": "Signature Events",
+        "name": "Muthupandi S",
+        "position": "External Affairs",
         "year": "3rd Year",
-        "image": prithivRajJImg
+        "image": OB2
     },
     {
-        "name": "Sanjai K E",
-        "position": "Signature Events",
+        "name": "Dharshini B",
+        "position": "External Affairs",
         "year": "3rd Year",
-        "image": sanjaiKEImg
+        "image": OB2
     },
     {
-        "name": "Sripriyan P",
-        "position": "Signature Events", 
+        "name": "Mathumithaa R S",
+        "position": "Hospitality",
         "year": "3rd Year",
-        "image": sripriyanPImg
+        "image": OB2
     },
     {
-        "name": "Sandiep Lakshiman BA",
+        "name": "Balakrishnan K",
+        "position": "Hospitality",
+        "year": "3rd Year",
+        "image": OB2
+    },
+    {
+        "name": "Lavanya N",
         "position": "Workshop",
         "year": "3rd Year",
-        "image": sandiepLakshmanBAImg
+        "image": OB2
     },
     {
-        "name": "Yeshwanth K",
+        "name": "Lishaa Bharathi M S",
         "position": "Workshop",
         "year": "3rd Year",
-        "image": yeshwanthKImg
+        "image": OB2
     },
+    {
+        "name": "Ujjay R",
+        "position": "Signature Events",
+        "year": "3rd Year",
+        "image": OB2
+    },
+    {
+        "name": "Athithyan V",
+        "position": "Signature Events",
+        "year": "3rd Year",
+        "image": OB2
+    },
+    {
+        "name": "Kavipriyan V",
+        "position": "Quality Assurance Control",
+        "year": "3rd Year",
+        "image": OB2
+    }
 ]
 
 import developerImg from '../asset/OBs/CoChairPersons/AbdulRahuman_S.jpeg';
